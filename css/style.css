@@ -78,7 +78,7 @@
 }
 
 .controls {
-	display: block;
+	display: hidden;
 }
 
 .control__item {	

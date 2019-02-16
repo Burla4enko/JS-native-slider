@@ -81,3 +81,8 @@ let keyControlsBtn = (e) => {
 };
 
 document.addEventListener('keydown', keyControlsBtn);
+
+let controls = document.querySelectorAll('.controls');
+for(let i=0; i<controls.length; i++){
+controls[i].style.display = 'block';
+}
