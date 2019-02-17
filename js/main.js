@@ -35,13 +35,13 @@ let startSlider = () => { timerId = setInterval(goToNextSlide, timerInterval); }
 
 let pauseSlideShow = () => {
     btnPausePlay.innerHTML = FA_PLAY;
-    playStatus = !playStatus;
+    playStatus = false;
     clearInterval(timerId);
 };
 
 let playSlideShow = () => {
     btnPausePlay.innerHTML = FA_PAUSE;
-    playStatus = !playStatus;
+    playStatus = true;
     startSlider();
 };
 
