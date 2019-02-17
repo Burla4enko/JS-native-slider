@@ -35,7 +35,7 @@ let startSlider = () => { timerId = setInterval(goToNextSlide, timerInterval); }
 
 let pauseSlideShow = () => {
     btnPausePlay.innerHTML = FA_PLAY;
-    playStatus = false;
+    playStatus = false; 
     clearInterval(timerId);
 };
 
